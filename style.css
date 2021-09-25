@@ -151,13 +151,8 @@ footer p {
 
 /* media query styles */
 
-@media all and (min-width: 480px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  form {
+@media all and (min-width: 768px) {
+    form {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -177,8 +172,15 @@ footer p {
     display: inline-flex;
     justify-content: flex-end;
     margin-left: 100px;
-  }
+  }  
+}
 
+@media all and (min-width: 480px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
   .criteria {
     flex-direction: column;
   }
